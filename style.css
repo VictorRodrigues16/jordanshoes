@@ -12,7 +12,7 @@ header#first p{
     color: #fff;
     font-family: 'Montserrat', sans-serif, Arial;
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 1.02rem;
     text-align: center;
 }
 header#second p{
@@ -20,8 +20,18 @@ header#second p{
     padding: 1rem;
     color: #181818;
     font-family: 'Montserrat', sans-serif, Arial;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 600;
+    text-align: center;
+}
+
+footer{
+    background-color: #181818;
+    padding: 1rem;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif, Arial;
+    font-weight: 500;
+    font-size: 1.02rem;
     text-align: center;
 }
 
@@ -29,6 +39,94 @@ section#about{
     background-image: url(./galery/Air-Jordan-1-Retro-High-OG-Wmns-TWIST-Feminino\ 1.svg);
     background-size: 100%;
     width: 100%;
-    height: 500px;
+    height: 420px;
     background-repeat: no-repeat;
+    padding: 4.5rem;
+    display: flex;
+}
+
+section#about h1{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif, Arial;
+    font-weight: 700;
+    font-size: 2.04rem;
+}
+
+section#about p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif, Arial;
+    font-weight: 600;
+    font-size: 1.16rem;
+    width: 30rem;
+    line-height: 33px;
+}
+
+div#text-about{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+section#destaques{
+    padding: 2rem;
+}
+
+div#tittle-destaques{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding-bottom: 5rem;
+}
+
+div#tittle-destaques h1{
+    color: #181818;
+    font-family: 'Montserrat', sans-serif, Arial;
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+div#tittle-destaques p{
+    font-family: 'Montserrat', sans-serif, Arial;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    color: #474747;
+}
+
+div#all-box{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding-bottom: 4rem;
+}
+div#boxes{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+div.box{
+    background-color: #EBE9EA;
+    width: 20rem;
+    height: 20rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: .4s all;
+}
+
+div.box:hover{
+    transform: translateY(-20px);
+    filter:drop-shadow(0px 4px 24px rgba(49, 48, 48, 0.15));
+  }
+
+
+div.box img{
+    width: 17rem;
 }
