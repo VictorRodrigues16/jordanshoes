@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+header#first p{
+    background-color: #181818;
+    padding: 1rem;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif, Arial;
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-align: center;
+}
+header#second p{
+    background-color: #fff;
+    padding: 1rem;
+    color: #181818;
+    font-family: 'Montserrat', sans-serif, Arial;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+section#about{
+    background-image: url(./galery/Air-Jordan-1-Retro-High-OG-Wmns-TWIST-Feminino\ 1.svg);
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
