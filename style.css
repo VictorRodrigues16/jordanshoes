@@ -36,7 +36,7 @@ footer{
 }
 
 section#about{
-    background-image: url(./galery/Air-Jordan-1-Retro-High-OG-Wmns-TWIST-Feminino\ 1.svg);
+    background-image: url(./galery/banner.svg);
     background-size: 100%;
     width: 100%;
     height: 420px;
@@ -57,7 +57,7 @@ section#about p{
     font-family: 'Montserrat', sans-serif, Arial;
     font-weight: 600;
     font-size: 1.16rem;
-    width: 30rem;
+    width: 31rem;
     line-height: 33px;
 }
 
@@ -66,8 +66,8 @@ div#text-about{
     flex-direction: column;
     gap: 1.4rem;
     justify-content: center;
-    padding-left: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem;
+    padding-bottom: 3rem;
 }
 
 section#destaques{
