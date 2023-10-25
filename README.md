@@ -1,4 +1,4 @@
-<h1 align="center">:Jordan Shoes</h1>
+<h1 align="center">Jordan Shoes</h1>
 
 
 
